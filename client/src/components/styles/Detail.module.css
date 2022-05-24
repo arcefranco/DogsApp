@@ -1,0 +1,43 @@
+.container{
+    background-color: rgb(110 70 0 / 15%);
+    font-family: 'BIZ UDPMincho', serif;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button {
+    color: #FFE4B5;
+    background-color: #8B4513;
+    border-radius: 4px;
+}
+:hover.button{
+    color:#8B4513;
+    background-color: #FFE4B5;
+   
+    transition: 0.5s;
+}
+.img{
+    width: 20rem;
+    box-shadow: 2px 2px 5px #999;
+}
+.charging{
+/*     display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+      background: url('images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);
+     */
+    position: fixed;
+    font-family: 'BIZ UDPMincho', serif; 
+    background-color: rgb(110 70 0 / 15%);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+   
+    opacity: .8;
+}

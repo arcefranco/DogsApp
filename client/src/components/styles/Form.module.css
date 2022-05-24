@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(110 70 0 / 15%);
+    font-family: 'BIZ UDPMincho', serif;
+}
+.container > h1 {
+align-self: center;
+}
+.button {
+    color: #FFE4B5;
+    background-color: #8B4513;
+    border-radius: 4px;
+}
+:hover.button{
+    color:#8B4513;
+    background-color: #FFE4B5;
+   
+    transition: 0.5s;
+}
+.inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.checkbox{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(25, 1fr);
+}
+.error {
+    color: #ba3939;
+    background: #ffe0e0;
+    border: 1px solid #a33a3a;
+    width: max-content;
+  }

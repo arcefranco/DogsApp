@@ -1,0 +1,54 @@
+.container { 
+    display: grid;
+    position: relative;  
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 20rem 1fr;
+    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0,0,0,0.4509345794392523) 78%, rgba(0,0,0,1) 100%);
+    font-family: 'BIZ UDPMincho', serif;
+}
+
+.container::before {
+    content: "";
+    background-image: url('../../assets/114-1147778_big.jpg');
+    position: absolute; 
+    object-fit: cover;   
+     background-size: cover;  
+      background-repeat: no-repeat;    
+    opacity: 0.9;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+   
+}
+.container > a {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+   
+}
+.container > h1 {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+}
+.button {
+    color: #FFE4B5;
+    background-color: #8B4513;
+    border-radius: 4px;
+}
+:hover.button{
+    color:#8B4513;
+    background-color: #FFE4B5;
+   
+    transition: 1s;
+}
+
